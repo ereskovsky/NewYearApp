@@ -146,65 +146,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Movies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\c2runtime.js" />
+    <Content Include="assets\css\style.css" />
     <Content Include="assets\data.js" />
+    <Content Include="assets\images\img1.png" />
     <Content Include="assets\jquery-2.1.1.min.js" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="assets\main.js" />
+    <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="images\background_card-sheet0.png" />
-    <Content Include="images\background_page_1.png" />
-    <Content Include="images\background_page_2.png" />
-    <Content Include="images\bt_open-sheet0.png" />
-    <Content Include="images\bt_open_small-sheet0.png" />
-    <Content Include="images\bt_sound-sheet0.png" />
-    <Content Include="images\ground_back_1-sheet0.png" />
-    <Content Include="images\ground_back_2-sheet0.png" />
-    <Content Include="images\ground_back_3-sheet0.png" />
-    <Content Include="images\ground_front_1-sheet0.png" />
-    <Content Include="images\ground_front_2-sheet0.png" />
-    <Content Include="images\ground_front_3-sheet0.png" />
-    <Content Include="images\minitruck-sheet0.png" />
-    <Content Include="images\preloader-sheet0.png" />
-    <Content Include="images\snow-sheet0.png" />
-    <Content Include="images\texts_details-sheet0.png" />
-    <Content Include="images\truck-sheet0.png" />
-    <Content Include="images\your_logo-sheet0.png" />
-    <Content Include="images\z_element_camera-sheet0.png" />
-    <Content Include="images\z_element_minitruck_create-sheet0.png" />
-    <Content Include="images\z_element_minitruck_limit-sheet0.png" />
-    <Content Include="images\z_element_minitruck_new-sheet0.png" />
-    <Content Include="images\z_element_snow_create-sheet0.png" />
-    <Content Include="images\z_element_snow_limit_1-sheet0.png" />
-    <Content Include="images\z_element_snow_limit_2-sheet0.png" />
-    <Content Include="images\z_element_truck_create-sheet0.png" />
-    <Content Include="images\z_element_url-sheet0.png" />
-    <Content Include="media\music_christmas.m4a" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\media\music_christmas.m4a" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="your-card\logo-yourcompany.png" />
     <Content Include="your-card\your-card.xml" />
-    <Content Include="media\music_christmas.ogg" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <Content Include="fonts\media\music_christmas.ogg" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -217,10 +180,12 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\CodePage.cshtml" />
+    <Content Include="Views\Home\Present.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -233,7 +198,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

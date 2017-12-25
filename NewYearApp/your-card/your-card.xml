@@ -32,18 +32,16 @@ If you want to change the text color, you have to fill the fields with the color
 <your_card>
 
 <your_main>
-Happy Holidays!</your_main>
+Счастливого 2018!</your_main>
 
-<your_message>Joy is the greatest gift
-a person can give.
-May this Christmas
-bring you much happiness
-for all days of the New Year.
+<your_message>Поздравляем с новым 2018 годом!
+Пусть в новом году сбудутся все ваши мечты!
+С любовью, Наташа и Антон!
 </your_message>
     
-<your_site>yourcompany.com</your_site>
+<your_site>За подарком сюда!</your_site>
     
-<your_url>https://keiow.com/</your_url>
+<your_url>/Home/CodePage</your_url>
 
 <your_logo>logo-yourcompany.png</your_logo>
 
